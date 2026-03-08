@@ -1,41 +1,19 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Skins</title>
+<title>Skins - Portal R6M</title>
 <link rel="stylesheet" href="css/style.css">
-<script defer src="js/database.js"></script>
-<script defer src="js/filters.js"></script>
 </head>
-
 <body>
-
-<header>
-<div class="logo">Portal R6M Skins</div>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="operators.html">Operadores</a>
-<a href="skins.html">Skins</a>
-<a href="maps.html">Mapas</a>
-</nav>
-</header>
-
-<section>
 
 <h1>Galeria de Skins</h1>
 
-<select id="rarityFilter" onchange="filterSkins()">
-<option value="">Todas raridades</option>
-<option value="Legendary">Legendary</option>
-<option value="Epic">Epic</option>
-<option value="Rare">Rare</option>
-</select>
+<input type="text" placeholder="Buscar skin..." id="search">
 
-<div id="skins" class="grid"></div>
+<div id="skins"></div>
 
-</section>
+<script src="js/database.js"></script>
+<script src="js/search.js"></script>
 
 </body>
 </html>

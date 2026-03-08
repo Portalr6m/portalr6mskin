@@ -1,19 +1,44 @@
 
-# Portal R6M Skins V3
+# Portal R6M Skins
 
-Portal da comunidade para Rainbow Six Mobile.
+Site da comunidade para Tom Clancy's Rainbow Six Mobile.
 
-## Features
+## Conteúdo
 
-- Banco de skins
-- Operadores
-- Mapas
-- Busca
-- Filtros
-- Estrutura de API
+Operadores  
+Skins  
+Mapas  
+Alpha Packs  
 
-## Publicar no GitHub
+## Tecnologias
 
-1. Criar repositório
-2. Enviar todos arquivos
-3. Ativar GitHub Pages em Settings > Pages
+HTML  
+CSS  
+JavaScript  
+
+## Estrutura
+
+portal-r6m-skins
+
+index.html
+operators.html
+skins.html
+maps.html
+alpha-packs.html
+
+/css
+style.css
+
+/js
+database.js
+search.js
+
+/api
+skins.json
+
+/assets
+/operators
+/skins
+/maps
+/icons
+
